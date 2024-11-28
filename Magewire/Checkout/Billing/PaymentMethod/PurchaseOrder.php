@@ -11,8 +11,6 @@ class PurchaseOrder extends FieldComponent
         'afterSavePaymentMethod' => 'refresh'
     ];
 
-    public string $value = '';
-
     public function __construct(
         private CheckoutState $checkoutState
     ) {
