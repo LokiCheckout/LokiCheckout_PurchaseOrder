@@ -7,7 +7,9 @@ use Yireo\LokiCheckout\ViewModel\CheckoutState;
 
 class PurchaseOrder extends FieldComponent
 {
-    protected $listeners = ['paymentMethodChange' => 'refresh'];
+    protected $listeners = [
+        'afterSavePaymentMethod' => 'refresh'
+    ];
 
     public string $value = '';
 
