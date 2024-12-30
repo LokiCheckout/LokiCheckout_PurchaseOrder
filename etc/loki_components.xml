@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<components xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Yireo_LokiComponents:etc/loki_components.xsd">
+    <componentGroup name="default">
+        <component
+            name="loki-checkout.billing.payment-methods.purchaseorder.form"
+            viewModel="Yireo\LokiCheckoutPurchaseOrder\Component\Checkout\Billing\PaymentMethod\PurchaseOrderViewModel"
+            repository="Yireo\LokiCheckoutPurchaseOrder\Component\Checkout\Billing\PaymentMethod\PurchaseOrderRepository"
+        />
+    </componentGroup>
+</components>
