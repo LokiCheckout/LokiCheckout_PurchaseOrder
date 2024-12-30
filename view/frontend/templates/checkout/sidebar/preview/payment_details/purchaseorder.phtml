@@ -3,12 +3,9 @@ declare(strict_types=1);
 
 use Magento\Framework\View\Element\Template;
 use Yireo\LokiCheckoutPurchaseOrder\Component\Checkout\Billing\PaymentMethod\PurchaseOrderViewModel;
-use Yireo\LokiComponents\Factory\ViewModelFactory;
 
 /** @var Template $block */
-/** @var ViewModelFactory $viewModelFactory */
 /** @var PurchaseOrderViewModel $viewModel */
-$viewModel = $viewModelFactory->create(PurchaseOrderViewModel::class);
 
 $poNumber = $viewModel->getValue();
 if (empty($poNumber)) {
