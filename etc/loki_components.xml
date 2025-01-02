@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <components xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Yireo_LokiComponents:etc/loki_components.xsd">
-    <componentGroup name="checkout">
-        <component
-            name="loki-checkout.payment.payment-methods.purchaseorder.form"
-            context="Yireo\LokiCheckout\Component\Base\Field\FieldContext"
-            viewModel="Yireo\LokiCheckoutPurchaseOrder\Component\Checkout\Billing\PaymentMethod\PurchaseOrderViewModel"
-            repository="Yireo\LokiCheckoutPurchaseOrder\Component\Checkout\Billing\PaymentMethod\PurchaseOrderRepository"
-        >
-            <target name="loki-checkout.sidebar.preview.payment_details.purchaseorder"/>
-        </component>
+    <component
+        name="loki-checkout.payment.payment-methods.purchaseorder.form"
+        group="checkout"
+        context="Yireo\LokiCheckout\Component\Base\Field\FieldContext"
+        viewModel="Yireo\LokiCheckoutPurchaseOrder\Component\Checkout\Billing\PaymentMethod\PurchaseOrderViewModel"
+        repository="Yireo\LokiCheckoutPurchaseOrder\Component\Checkout\Billing\PaymentMethod\PurchaseOrderRepository">
+        <target name="loki-checkout.sidebar.preview.payment_details.purchaseorder"/>
+    </component>
 
-        <component
-            name="loki-checkout.sidebar.preview.payment_details.purchaseorder"
-            context="Yireo\LokiCheckout\Component\Base\Field\FieldContext"
-            viewModel="Yireo\LokiCheckoutPurchaseOrder\Component\Checkout\Billing\PaymentMethod\PurchaseOrderViewModel"
-            repository="Yireo\LokiCheckoutPurchaseOrder\Component\Checkout\Billing\PaymentMethod\PurchaseOrderRepository"
-        />
-    </componentGroup>
+    <component
+        name="loki-checkout.sidebar.preview.payment_details.purchaseorder"
+        group="checkout"
+        context="Yireo\LokiCheckout\Component\Base\Field\FieldContext"
+        viewModel="Yireo\LokiCheckoutPurchaseOrder\Component\Checkout\Billing\PaymentMethod\PurchaseOrderViewModel"
+        repository="Yireo\LokiCheckoutPurchaseOrder\Component\Checkout\Billing\PaymentMethod\PurchaseOrderRepository"
+    />
 </components>
