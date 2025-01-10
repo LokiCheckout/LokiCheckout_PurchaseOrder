@@ -10,15 +10,16 @@ use Yireo\LokiComponents\Component\ComponentRepository;
  */
 class PurchaseOrderRepository extends ComponentRepository
 {
-    protected function getData(): mixed
+    public function getValue(): mixed
     {
         return (string)$this->getContext()->getCheckoutState()->getQuote()->getPayment()->getPoNumber();
     }
 
-    protected function saveData(mixed $data): void
+    public function saveValue(mixed $value): void
     {
+        $value = (string)$value;
         $quote = $this->getContext()->getCheckoutState()->getQuote();
-        $quote->getPayment()->setPoNumber($data);
+        $quote->getPayment()->setPoNumber($value);
         $this->getContext()->getCheckoutState()->saveQuote($quote);
     }
 }
