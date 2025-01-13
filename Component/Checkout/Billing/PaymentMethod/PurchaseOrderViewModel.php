@@ -3,10 +3,10 @@
 namespace Yireo\LokiCheckoutPurchaseOrder\Component\Checkout\Billing\PaymentMethod;
 
 use Yireo\LokiCheckout\Component\Base\Field\FieldViewModel;
-use Yireo\LokiCheckout\Component\Base\Generic\GenericContext;
+use Yireo\LokiCheckout\Component\Base\Generic\CheckoutContext;
 
 /**
- * @method GenericContext getContext()
+ * @method CheckoutContext getContext()
  */
 class PurchaseOrderViewModel extends FieldViewModel
 {
