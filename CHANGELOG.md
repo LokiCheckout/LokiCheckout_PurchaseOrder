@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.2] - 22 February 2025
+### Fixed
+-  Change deps
+-  Add proper README
+-  Replace TODO.md with TODO.json
+-  Add changes from release
+
 ## [0.0.1] - 21 January 2025
 - Add proper deps
 - Initial release
