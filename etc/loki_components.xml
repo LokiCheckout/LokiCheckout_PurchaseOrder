@@ -3,7 +3,7 @@
     <component
         name="loki-checkout.payment.payment-methods.purchaseorder.form"
         group="checkout"
-        context="Yireo\LokiCheckout\Component\Base\Field\FieldContext"
+        context="Yireo\LokiCheckout\Component\Base\Generic\CheckoutContext"
         viewModel="Yireo\LokiCheckoutPurchaseOrder\Component\Checkout\Billing\PaymentMethod\PurchaseOrderViewModel"
         repository="Yireo\LokiCheckoutPurchaseOrder\Component\Checkout\Billing\PaymentMethod\PurchaseOrderRepository">
         <target name="loki-checkout.sidebar.preview.payment_details.purchaseorder"/>
@@ -12,7 +12,7 @@
     <component
         name="loki-checkout.sidebar.preview.payment_details.purchaseorder"
         group="checkout"
-        context="Yireo\LokiCheckout\Component\Base\Field\FieldContext"
+        context="Yireo\LokiCheckout\Component\Base\Generic\CheckoutContext"
         viewModel="Yireo\LokiCheckoutPurchaseOrder\Component\Checkout\Billing\PaymentMethod\PurchaseOrderViewModel"
         repository="Yireo\LokiCheckoutPurchaseOrder\Component\Checkout\Billing\PaymentMethod\PurchaseOrderRepository"
     />
