@@ -4,6 +4,7 @@
         <sequence>
             <module name="Yireo_LokiCheckout"/>
             <module name="Yireo_LokiComponents"/>
+            <module name="Yireo_LokiFieldComponents"/>
         </sequence>
     </module>
 </config>
