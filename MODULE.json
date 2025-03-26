@@ -1,0 +1,12 @@
+{
+    "modules": [
+        "Yireo_LokiCheckout",
+        "Yireo_LokiComponents",
+        "Yireo_LokiFieldComponents"
+    ],
+    "components": [
+        "loki-checkout.payment.payment-methods.purchaseorder.form",
+        "loki-checkout.sidebar.preview.payment_details.purchaseorder"
+    ],
+    "config": []
+}
