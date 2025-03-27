@@ -2,6 +2,7 @@
   "name": "yireo/magento2-loki-checkout-purchase-order",
   "version": "0.0.3",
   "description": "N/A",
+  "keywords": ["loki-other"],
   "type": "magento2-module",
   "require": {
     "magento/framework": "^103.0",
