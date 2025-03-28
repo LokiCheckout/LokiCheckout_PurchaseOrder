@@ -5,7 +5,7 @@
             name="loki-checkout.payment.payment-methods.purchaseorder.form"
             template="Yireo_LokiFieldComponents::form/field.phtml">
             <arguments>
-                <argument name="additional_css" xsi:type="string">p-4 border border-zinc-200 bg-zinc-100</argument>
+                <argument name="additional_css" xsi:type="string">p-4</argument>
             </arguments>
         </block>
 
