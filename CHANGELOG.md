@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.4] - 04 April 2025
+### Fixed
+- Rewrite ugly require to standard import
+- Complete Playwright test
+- Add keywords to composer.json
+- Add new MODULE.json with meta-information
+
 ## [0.0.3] - 11 March 2025
 ### Fixed
 - Add module dependencies
