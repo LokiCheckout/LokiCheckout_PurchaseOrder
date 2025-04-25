@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.5] - 25 April 2025
+### Fixed
+- Allow upgrading to LokiFieldComponents and LokiCheckout 1.0
+- Allow upgrade to LokiComponents 1.0
+
 ## [0.0.4] - 04 April 2025
 ### Fixed
 - Rewrite ugly require to standard import
