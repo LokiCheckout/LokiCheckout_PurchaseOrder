@@ -8,5 +8,10 @@
         "loki-checkout.payment.payment-methods.purchaseorder.form",
         "loki-checkout.sidebar.preview.payment_details.purchaseorder"
     ],
-    "config": []
+    "config": [],
+    "tests": {
+        "unit": 0,
+        "integration": 0,
+        "functional": 1
+    }
 }
