@@ -12,6 +12,6 @@
     "tests": {
         "unit": 0,
         "integration": 0,
-        "functional": 1
+        "functional": 2
     }
 }
