@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 18 June 2025
+### Fixed
+- Use Loki test-case in Playwright to detect JS errors automatically
+- Rewrite @helpers to @loki in Playwright tests
+
 ## [1.0.0] - 26 May 2025
 ### Fixed
 - Generate new MODULE.json with simple test count
