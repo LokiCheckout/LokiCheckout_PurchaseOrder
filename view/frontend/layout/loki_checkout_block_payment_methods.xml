@@ -3,7 +3,7 @@
     <body>
         <block
             name="loki-checkout.payment.payment-methods.purchaseorder.form"
-            template="Yireo_LokiFieldComponents::form/field.phtml">
+            template="Loki_FieldComponents::form/field.phtml">
             <arguments>
                 <argument name="additional_css" xsi:type="string">p-4</argument>
             </arguments>
@@ -12,7 +12,7 @@
         <referenceBlock name="loki-checkout.sidebar.preview.payment_details">
             <block
                 name="loki-checkout.sidebar.preview.payment_details.purchaseorder"
-                template="Yireo_LokiCheckoutPurchaseOrder::checkout/sidebar/preview/payment_details/purchaseorder.phtml"/>
+                template="LokiCheckout_PurchaseOrder::checkout/sidebar/preview/payment_details/purchaseorder.phtml"/>
         </referenceBlock>
     </body>
 </page>

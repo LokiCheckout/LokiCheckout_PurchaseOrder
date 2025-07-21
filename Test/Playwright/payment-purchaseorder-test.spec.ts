@@ -6,11 +6,11 @@ test.describe('purchaseorder payment test', () => {
     test('should allow me to go to the success page', async ({page, context}) => {
         await setupCheckout(page, context, {
             modules: [
-                'Yireo_LokiCheckoutPurchaseOrder'
+                'LokiCheckout_PurchaseOrder'
             ],
             profile: 'netherlands',
             config: {
-                'yireo_loki_checkout/general/theme': 'onestep',
+                'loki_checkout/general/theme': 'onestep',
                 'payment/purchaseorder/active': '1',
             }
         });
@@ -30,11 +30,11 @@ test.describe('purchaseorder payment test', () => {
     test('should give an error without additional input', async ({page, context}) => {
         await setupCheckout(page, context, {
             modules: [
-                'Yireo_LokiCheckoutPurchaseOrder'
+                'LokiCheckout_PurchaseOrder'
             ],
             profile: 'netherlands',
             config: {
-                'yireo_loki_checkout/general/theme': 'onestep',
+                'loki_checkout/general/theme': 'onestep',
                 'payment/purchaseorder/active': '1',
             }
         });

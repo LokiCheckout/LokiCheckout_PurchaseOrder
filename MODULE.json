@@ -1,8 +1,8 @@
 {
     "modules": [
-        "Yireo_LokiCheckout",
-        "Yireo_LokiComponents",
-        "Yireo_LokiFieldComponents"
+        "LokiCheckout_Core",
+        "Loki_Components",
+        "Loki_FieldComponents"
     ],
     "components": [
         "loki-checkout.payment.payment-methods.purchaseorder.form",
