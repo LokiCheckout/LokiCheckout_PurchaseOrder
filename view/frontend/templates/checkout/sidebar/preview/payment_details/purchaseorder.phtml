@@ -13,7 +13,7 @@ if (empty($poNumber)) {
 }
 ?>
 <div>
-    <span><?= __('PO Number') ?></span>:
-    <?= $poNumber ?>
+    <span><?= $escaper->escapeHtml(__('PO Number')) ?></span>:
+    <?= $escaper->escapeHtml($poNumber) ?>
 </div>
 
