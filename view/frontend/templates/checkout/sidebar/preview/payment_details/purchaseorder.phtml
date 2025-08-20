@@ -11,7 +11,8 @@ use LokiCheckout\PurchaseOrder\Component\Checkout\Billing\PaymentMethod\Purchase
 $poNumber = $viewModel->getValue();
 if (empty($poNumber)) {
     return '';
-} ?>
+}
+?>
 <div>
     <span><?= $escaper->escapeHtml(__('PO Number')) ?></span>:
     <?= $escaper->escapeHtml($poNumber) ?>
