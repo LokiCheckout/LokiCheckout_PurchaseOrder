@@ -1,5 +1,4 @@
-<?php
-declare(strict_types=1);
+<?php declare(strict_types=1);
 
 use Magento\Framework\View\Element\Template;
 use LokiCheckout\PurchaseOrder\Component\Checkout\Billing\PaymentMethod\PurchaseOrderViewModel;
@@ -10,10 +9,8 @@ use LokiCheckout\PurchaseOrder\Component\Checkout\Billing\PaymentMethod\Purchase
 $poNumber = $viewModel->getValue();
 if (empty($poNumber)) {
     return '';
-}
-?>
+} ?>
 <div>
     <span><?= $escaper->escapeHtml(__('PO Number')) ?></span>:
     <?= $escaper->escapeHtml($poNumber) ?>
 </div>
-
