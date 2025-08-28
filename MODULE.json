@@ -1,5 +1,6 @@
 {
     "modules": [
+        "Magento_Store",
         "LokiCheckout_Core",
         "Loki_Components",
         "Loki_FieldComponents"
