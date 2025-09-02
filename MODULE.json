@@ -6,7 +6,7 @@
         "Loki_FieldComponents"
     ],
     "components": [
-        "loki-checkout.payment.payment-methods.purchaseorder.form",
+        "loki-checkout.payment.methods.purchaseorder.form",
         "loki-checkout.sidebar.preview.payment_details.purchaseorder"
     ],
     "config": [],
