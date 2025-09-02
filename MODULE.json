@@ -2,6 +2,7 @@
     "modules": [
         "Magento_Store",
         "LokiCheckout_Core",
+        "Loki_CssUtils",
         "Loki_Components",
         "Loki_FieldComponents"
     ],
