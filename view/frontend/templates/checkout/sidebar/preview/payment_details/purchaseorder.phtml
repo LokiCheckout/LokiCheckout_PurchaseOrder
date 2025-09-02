@@ -16,7 +16,7 @@ if (empty($poNumber)) {
     return '';
 }
 ?>
-<div class="<?= $css('') ?>">
-    <span class="<?= $css('', 'label') ?>"><?= $escaper->escapeHtml(__('PO Number')) ?></span>:
-    <span class="<?= $css('', 'value') ?>"><?= $escaper->escapeHtml($poNumber) ?></span>
+<div class="<?= /* @noEscape */ $css('') ?>">
+    <span class="<?= /* @noEscape */ $css('', 'label') ?>"><?= $escaper->escapeHtml(__('PO Number')) ?></span>:
+    <span class="<?= /* @noEscape */ $css('', 'value') ?>"><?= $escaper->escapeHtml($poNumber) ?></span>
 </div>
