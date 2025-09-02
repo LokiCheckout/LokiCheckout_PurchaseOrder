@@ -1,21 +1,22 @@
 <?php declare(strict_types=1);
 
-/** @version 2.0.6 */
-
 use Magento\Framework\Escaper;
 use Magento\Framework\View\Element\Template;
+use Loki\CssUtils\Util\CssClass;
 use LokiCheckout\PurchaseOrder\Component\Checkout\Billing\PaymentMethod\PurchaseOrderViewModel;
 
+/** @version 2.0.6 */
 /** @var Escaper $escaper */
 /** @var Template $block */
 /** @var PurchaseOrderViewModel $viewModel */
+/** @var CssClass $css */
 
 $poNumber = $viewModel->getValue();
 if (empty($poNumber)) {
     return '';
 }
 ?>
-<div>
-    <span><?= $escaper->escapeHtml(__('PO Number')) ?></span>:
-    <?= $escaper->escapeHtml($poNumber) ?>
+<div class="<?= $css('') ?>">
+    <span class="<?= $css('', 'label') ?>"><?= $escaper->escapeHtml(__('PO Number')) ?></span>:
+    <span class="<?= $css('', 'value') ?>"><?= $escaper->escapeHtml($poNumber) ?></span>
 </div>
