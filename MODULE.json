@@ -41,5 +41,6 @@
         "unit": 0,
         "integration": 0,
         "functional": 2
-    }
+    },
+    "phpcs_severity": "1"
 }
