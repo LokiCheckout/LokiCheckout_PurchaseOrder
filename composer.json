@@ -4,9 +4,7 @@
     "description": "N/A",
     "keywords": [
         "loki-checkout",
-        "loki-checkout-payment",
-        "loki-checkout-other",
-        "loki-checkout-core"
+        "loki-checkout-category-payment"
     ],
     "type": "magento2-module",
     "require": {
