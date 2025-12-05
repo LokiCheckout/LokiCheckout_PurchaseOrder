@@ -20,6 +20,5 @@ class PurchaseOrderRepository extends ComponentRepository
         $value = (string)$value;
         $quote = $this->getContext()->getCheckoutState()->getQuote();
         $quote->getPayment()->setPoNumber($value);
-        $this->getContext()->getCheckoutState()->saveQuote($quote);
     }
 }
