@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.8] - 11 December 2025
+### Fixed
+- Remove redundant quote save
+
 ## [2.0.7] - 24 September 2025
 ### Fixed
 - Rewrite transfer of global messages from components to be a lot simpler
