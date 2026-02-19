@@ -28,9 +28,9 @@
         "Magento_Sales",
         "Magento_Shipping",
         "Magento_Store",
+        "Magento_Tax",
         "Magento_Vault",
-        "Yireo_CspUtilities",
-        "Yireo_HyvaThemeAutoRegistration"
+        "Yireo_CspUtilities"
     ],
     "components": [
         "loki-checkout.payment.methods.purchaseorder.form",
@@ -41,7 +41,5 @@
         "unit": 0,
         "integration": 0,
         "functional": 2
-    },
-    "phpcs_severity": "10",
-    "phpstan_level": "8"
+    }
 }

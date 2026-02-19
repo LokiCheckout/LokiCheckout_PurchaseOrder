@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.0.9] - 19 February 2026
+### Fixed
+- Copy generic CI/CD files
+- Reset severity level
+- Copy generic CI/CD files
+
 ## [2.0.8] - 11 December 2025
 ### Fixed
 - Remove redundant quote save
