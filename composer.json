@@ -1,7 +1,7 @@
 {
     "name": "loki-checkout/magento2-purchase-order",
     "version": "2.0.9",
-    "description": "N/A",
+    "description": "Compatibility module for the Purchase Order payment method",
     "keywords": [
         "loki-checkout",
         "loki-checkout-category-payment"
