@@ -23,5 +23,8 @@
         "psr-4": {
             "LokiCheckout\\PurchaseOrder\\": ""
         }
+    },
+    "extra": {
+        "label": "Purchase Order"
     }
 }
