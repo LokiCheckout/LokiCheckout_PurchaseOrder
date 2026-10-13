@@ -1,7 +1,7 @@
 import {PaymentMethod, PlaceOrderButton, SuccessPage} from '@loki-checkout/checkout-objects';
 import {setupCheckout} from '@loki/setup-checkout';
 import {test, expect} from '@loki/test';
-import coreConfig from '@loki/config';
+import coreConfig from '@loki-checkout/config';
 
 test.describe('purchaseorder payment test', () => {
     test('should allow me to go to the success page', async ({page, context}) => {
@@ -19,7 +19,7 @@ test.describe('purchaseorder payment test', () => {
         const paymentMethod = new PaymentMethod(page, 'purchaseorder');
         await paymentMethod.select();
 
-        const purchaseOrderNumber = await page.getByTestId('loki-checkout-payment-payment-methods-purchaseorder-form-field');
+        const purchaseOrderNumber = await page.getByTestId('loki-checkout-payment-methods-item-purchaseorder-form-field');
         await purchaseOrderNumber.fill('foobar');
 
         const placeOrderButton = new PlaceOrderButton(page);
