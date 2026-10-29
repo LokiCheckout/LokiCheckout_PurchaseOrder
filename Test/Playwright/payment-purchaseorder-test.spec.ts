@@ -19,7 +19,7 @@ test.describe('purchaseorder payment test', () => {
         const paymentMethod = new PaymentMethod(page, 'purchaseorder');
         await paymentMethod.select();
 
-        const purchaseOrderNumber = await page.getByTestId('loki-checkout-payment-methods-item-purchaseorder-form-field');
+        const purchaseOrderNumber = await page.getByTestId('loki-checkout-payment-methods-purchaseorder-form-field');
         await purchaseOrderNumber.fill('foobar');
 
         const placeOrderButton = new PlaceOrderButton(page);
