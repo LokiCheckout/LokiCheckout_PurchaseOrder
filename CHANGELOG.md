@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.1.0] - 25 November 2026
+### Added
+- Support for PHP 8.5
+- License file (LICENSE.txt) and security policy (SECURITY.md) are now shipped with the module
+
+### Removed
+- Support for PHP 8.1 (the module now requires PHP 8.2 or higher)
+
 ## [2.0.9] - 19 February 2026
 ### Fixed
 - Copy generic CI/CD files
