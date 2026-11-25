@@ -25,7 +25,8 @@
             "LokiCheckout\\PurchaseOrder\\": ""
         }
     },
-    "extra": {
-        "label": "Purchase Order"
+    "require-dev": {
+        "loki-checkout/magento2-functional-tests": "@dev",
+        "loki/magento2-functional-tests": "@dev"
     }
 }
